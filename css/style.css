@@ -1,23 +1,25 @@
-#projects{
-    width: 200px;
+html,
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
 }
 
-#welcome-section{
-height:100%;
-min-height:100px;
-text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
-
-#projects{
-margin-bottom: 1500px;
-}
-
-@media only screen and (max-width: 600px) {
-    body {
- width: 50%;
-    }
-  }
 
 #navbar {
-    position: fixed;
-  }
+  position: fixed;
+}
+
+#welcome-section {
+  top: 0;
+  min-height: 55vh;
+  padding-top: 45vh;
+}
+
+@media screen and (max-width: 60px) {
+  body {
+width: 50%;  }
+}

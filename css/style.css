@@ -17,3 +17,7 @@ margin-bottom: 1500px;
  width: 50%;
     }
   }
+
+#navbar {
+    position: fixed;
+  }
